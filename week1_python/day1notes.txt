@@ -1,0 +1,10 @@
+My first Git/GitHub notes what i learnt:
+- git --version -> shows the installed Git version.
+- git status -> shows the status of files (untracked, modified, staged, committed)
+- git add foldername/filename - stages a file (tells Git to track it)
+- git commit -m "message" -> saves a snapshot of staged changes locally.
+- git push origin main -> pushes commits from local repo to GitHub(remote)
+- git config --global user.name "Priya Kumari" ->Sets global author name 
+- git config --global user.email "itsmepriya290@gmail.com" ->Sets global author email
+- git commit --amend --reset-author --no-edit -> updates the last commit with the new author info.
+- git config --global--list -> shows all configured global Git settings.
